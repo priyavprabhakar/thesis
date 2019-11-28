@@ -1,0 +1,8 @@
+.date {
+    color:black;
+    font-weight: bold;
+}
+
+.selectedDate.date {
+    color:red;
+}
