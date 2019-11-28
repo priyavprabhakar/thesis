@@ -1,0 +1,10 @@
+App
+    Header
+        Timeline: the dates 
+        Logo
+    Text Panel 
+        Text Panel Title
+        Text Panel Text
+    Archival Panel
+        Archival Item
+    Footer
