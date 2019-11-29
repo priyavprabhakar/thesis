@@ -5,13 +5,15 @@ import React, {useState} from "react";
 
 
 function App() {
-
   const [selectedDate, updateSelectedDate] = useState(undefined)
-  console.log(selectedDate)
   return (
-  <div>
+  <>
     <Header update={updateSelectedDate}/>
-  </div>)
+    <div className = "contentContainer"> 
+      <TextPanel selectedDate={selectedDate}/>
+    </div>
+  </>
+  )
 }
 
 export default App;

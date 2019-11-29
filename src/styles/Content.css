@@ -1,0 +1,23 @@
+.textPanel {
+    width: 25%;
+    border-right: 1px solid gray;
+    padding: 16px;
+}
+
+.textPanelTitleContainer {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background: rgba(255,255,255,0.5); 
+    margin-bottom: 16px;
+    z-index: 10;
+
+
+}
+
+.textPanelText {
+    overflow-y:scroll;
+    height: 525px;
+}

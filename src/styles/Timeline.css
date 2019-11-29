@@ -1,7 +1,12 @@
 .date {
     color:white;
-    font-weight: bold;
     margin: 10px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.date:hover {
+    text-decoration: underline;
 }
 
 .selectedDate.date {
@@ -10,4 +15,6 @@
 
 .timelineContainer {
     display:flex;
+    align-items: center;
+    cursor: pointer;
 }
