@@ -1,8 +1,13 @@
 .date {
-    color:black;
+    color:white;
     font-weight: bold;
+    margin: 10px;
 }
 
 .selectedDate.date {
     color:red;
+}
+
+.timelineContainer {
+    display:flex;
 }

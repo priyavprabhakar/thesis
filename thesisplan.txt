@@ -1,6 +1,6 @@
-App
+App ---- should have date
     Header
-        Timeline: the dates 
+        Timeline: the dates --- current: only this has tht 
         Logo
     Text Panel 
         Text Panel Title
