@@ -1,7 +1,8 @@
 import './App.css';
 import Header from './components/Header';
 import TextPanel from './components/TextPanel';
-import React, {useState} from "react";
+import ArchivalPanel from './components/ArchivalPanel'
+import React, {useState} from "react"
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Header update={updateSelectedDate}/>
     <div className = "contentContainer"> 
       <TextPanel selectedDate={selectedDate}/>
+      <ArchivalPanel selectedDate = {selectedDate}> </ArchivalPanel>
     </div>
   </>
   )

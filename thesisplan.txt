@@ -8,3 +8,8 @@ App ---- should have date
     Archival Panel
         Archival Item
     Footer
+
+
+get the selected date 
+extract the information from the database for the selected date 
+log the selected date information to the console 
