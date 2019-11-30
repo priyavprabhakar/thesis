@@ -5,7 +5,7 @@ import ArchivalPanel from './components/ArchivalPanel'
 import React, {useState} from "react"
 
 
-function App() {
+function TimelinePage() {
   const [selectedDate, updateSelectedDate] = useState(undefined)
   return (
   <>
@@ -18,6 +18,6 @@ function App() {
   )
 }
 
-export default App;
+export default TimelinePage;
 
 
