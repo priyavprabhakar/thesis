@@ -1,4 +1,5 @@
 import React from "react"
+import '../styles/Footer.css'
 import {
     BrowserRouter as Router,
     Link,
@@ -7,9 +8,11 @@ import {
 
 
 function Footer() {
-    return <footer>
-    <Link to = "/about"> about </Link>
-    <Link to = "/resources"> resources </Link>
-    <Link to = "/bibliography"> bibliography </Link>
+    return  <footer className = "footerContainer" > 
+    <Link className = "footerText" to = "/about"> about </Link> 
+    <Link className = "footerText" to = "/resources"> resources </Link>
+    <Link className = "footerText" to = "/bibliography"> bibliography </Link>
     </footer>
 }
+
+export default Footer

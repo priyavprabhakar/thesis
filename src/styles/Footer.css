@@ -1,0 +1,14 @@
+.footerContainer {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footerText {
+    color:white;
+    font-weight:bold;
+    font-style: italic;
+}
