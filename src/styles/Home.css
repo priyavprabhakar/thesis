@@ -1,0 +1,27 @@
+.homePageContainer {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.introDataTitle {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.introDate {
+    font-size: large;
+    color: white;
+}
+
+.introButton {
+    color: white;
+}

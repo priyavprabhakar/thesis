@@ -9,6 +9,9 @@ App ---- should have date
         Archival Item
     Footer
 
+Home
+    Enter 
+
 
 
 

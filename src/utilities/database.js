@@ -205,3 +205,10 @@ export const data = {
 
     }, 
 }
+
+export const intro_data = {
+    "title": "DEKH RAHE",
+    "subtitle": "An interactive timeline of India's surveillance state in the making",
+    "button": "enter",
+}
+

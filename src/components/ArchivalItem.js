@@ -12,7 +12,8 @@ function ArchivalItem(props) {
         <img className = "archivalImage" src={image.source}/>
         {!imageShowing && 
             <div className="archivalText">
-               <div className = "titleDateContainer"> <div className = "archivalTitle">{image.title} </div>
+               <div className = "titleDateContainer"> 
+               <div className = "archivalTitle">{image.title} </div>
                 <div className = "archivalDate">{image.date} </div>
                 </div>
                 <div>{image.text} </div>
