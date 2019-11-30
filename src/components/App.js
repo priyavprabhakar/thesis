@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import TimelinePage from "../TimelinePage";
 import Home from "./Home"
+import About from "./About"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/about">
+        <About/>
         </Route>
       </Switch>
   );
