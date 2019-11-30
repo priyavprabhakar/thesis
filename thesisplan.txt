@@ -10,6 +10,10 @@ App ---- should have date
     Footer
 
 
-get the selected date 
-extract the information from the database for the selected date 
-log the selected date information to the console 
+
+
+
+current situation: title date and text are all siblings 
+wrap the title and year in a parent and give that a class name of archival item title container
+on that class, put margin bottom 8 px 
+check it on different screens

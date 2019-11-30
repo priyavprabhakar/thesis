@@ -1,12 +1,20 @@
 import React from "react"
 import {data} from '../utilities/database'
+import StackGrid from "react-stack-grid";
+import _ from "lodash"
+import ArchivalItem from './ArchivalItem';
+import '../styles/Archival.css'
 
 function ArchivalPanel(props) {
     const date = props.selectedDate
     const dateMeta = data[date]
-    console.log(date)
-    console.log(dateMeta)
-    return <div>Archival Panel</div>
-}
+    const images = _.get(dateMeta, ["media"], [])
+
+    return <div className = "archivalPanelContainer">
+        {
+             images.map(i => <ArchivalItem sourceImage = {i}/>)
+        }
+    </div>
+}   
 
 export default ArchivalPanel

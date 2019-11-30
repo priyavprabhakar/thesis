@@ -1,3 +1,10 @@
 .headerContainer {
     background-color:black;
+    display:flex;
+    padding:8px;
+    justify-content: space-between;
+}
+
+.logoImage {
+    height:50px;
 }
