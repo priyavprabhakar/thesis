@@ -12,11 +12,11 @@ function Timeline(props) {
     }, [update, timelineSelected])
 
     return <div className="timelineContainer">
-        {dates.map(d => <div onClick={()=> {
-            updateTimelineSelected(d)
-        }} 
+        {dates.map(d => <span onClick={()=> {updateTimelineSelected(d)}} 
             className={`${timelineSelected === d ? "selectedDate": ""} date`} 
-            key={d}> {d} </div>)}
+            key={d}> 
+            {d}
+        </span>)}
     </div>
 }
 
