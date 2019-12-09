@@ -5,7 +5,8 @@ import aadhaar2 from '../images/aadhaar2.png'
 import aadhaar3 from '../images/aadhaar3.jpg'
 import aadhaar4 from '../images/aadhaar4.png'
 
-const IMAGE = 'image'
+export const IMAGE = 'image'
+export const VIDEO = 'video'
 
 export const data = {
     "1885":{
@@ -19,11 +20,25 @@ export const data = {
                 "text": "The constant and rigorous emphasis placed on the female body in societies across the world tells us two things: One, our bodies are something that we should hide, and paradoxically two, our bodies are something that are constantly on display. The presence of surveillance cameras in public or private spaces – hidden or otherwise – encapsulates this dichotomy perfectly. […] When it comes to spaces that tend to be male-dominated, your crime is the presence of your body, and the camera is, by extension, justified in capturing what you are supposed to hide.",
             },
             {
+                "source": "https://www.youtube.com/watch?v=L49LxRaWdO4",
+                "title": "Video 1",
+                "date": "2010",
+                "type": VIDEO,
+                "text": "",
+            },
+            {
                 "source": aadhaar2,
                 "title": "Aadhaar 2",
                 "date": "2014",
                 "type": IMAGE,
                 "text": "The phone is a space for connectivity. It makes the women using it independent in some respects. That is why they do not like it when girls have it. As individuals, if they become independent, it leaves room for love and affection on their own terms - it allows in a big way for freedom as a human being. It allows women to make transactions on their own behalf. Even within the house, relations are hierarchical, and the ones lowest in the hierarchy benefit the most from exercising individual choice.",
+            },
+            {
+                "source": "https://vimeo.com/218603665",
+                "title": "Video 2",
+                "date": "2014",
+                "type": VIDEO,
+                "text": "",
             },
             {
                 "source": aadhaar1,

@@ -11,7 +11,7 @@ function ArchivalPanel(props) {
 
     return <div className = "archivalPanelContainer">
         {
-             images.map(i => <ArchivalItem sourceImage = {i}/>)
+             images.map((i, index) => <ArchivalItem key={`media_${index}`} sourceImage = {i}/>)
         }
     </div>
 }   

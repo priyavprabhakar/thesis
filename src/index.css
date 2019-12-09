@@ -1,3 +1,9 @@
+
+#root {
+  --media-image-height: 325px;
+  --media-image-width: 250px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -35,8 +41,4 @@ body, html {
 .ui.modal, .ui.modal>.header, .ui.modal>.content{
   background: black!important;
   color: white;
-}
-
-.ui.dimmer {
-  background-color: black;
 }

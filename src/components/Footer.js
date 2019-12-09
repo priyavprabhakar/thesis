@@ -40,7 +40,7 @@ function Footer() {
             <Modal.Content scrolling>
                 <Modal.Description>
                     {
-                        RESOURCES.map(r => <p className="resource">
+                        RESOURCES.map((r, index) => <p key={`resource_${index}`} className="resource">
                             {r}
                         </p>)
                     }
