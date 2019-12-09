@@ -1,15 +1,13 @@
-import React, {useState, useEffect} from "react"
-import _ from "lodash"
+import React, {useState} from "react"
 
 
 function ArchivalItem(props) {
     const [imageShowing, updateImageShowing] = useState(true)
     const image = props.sourceImage
-    console.log(image)
     return <div className="archivalItem" onClick={()=> {
         updateImageShowing(!imageShowing)
     }} > 
-        <img className = "archivalImage" src={image.source}/>
+        <img className = "archivalImage" src={image.source} alt="archival_source"/>
         {!imageShowing && 
             <div className="archivalText">
                <div className = "titleDateContainer"> 

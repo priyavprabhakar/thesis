@@ -5,27 +5,24 @@
     display:flex;
     flex-direction:column;
     justify-content: center;
+    background-image: url('../images/thesis_background.png');
     align-items:center;
+    position: relative;
 }
 
 .introDataTitle {
-    font-size: 100px;
+    font-size: 108px;
     font-weight: bold;
+    line-height: 108px;
     color: white;
     font-style: italic;
-    font-weight: 500;
     font-family: 'Bebas Neue', cursive;
+    margin-bottom: 16px;
 }
 
 .introDate {
-    font-size: large;
+    font-size: 26px;
+    line-height: 26px;
     color: white;
-}
-
-.introButton {
-    color: white;
-}
-
-.eyeFront {
-    length:25px;
+    margin-bottom: 32px;
 }

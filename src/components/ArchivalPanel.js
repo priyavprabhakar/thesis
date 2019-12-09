@@ -1,6 +1,5 @@
 import React from "react"
 import {data} from '../utilities/database'
-import StackGrid from "react-stack-grid";
 import _ from "lodash"
 import ArchivalItem from './ArchivalItem';
 import '../styles/Archival.css'

@@ -5,15 +5,15 @@ import '../styles/Timeline.css';
 function Timeline(props) {
     const dates = Object.keys(data)
     const [timelineSelected, updateTimelineSelected] = useState(dates[0])
+    const {update} = props
 
     useEffect(() => {
-        props.update(timelineSelected)
-    }, [])
+        update(timelineSelected)
+    }, [update, timelineSelected])
 
     return <div className="timelineContainer">
         {dates.map(d => <div onClick={()=> {
             updateTimelineSelected(d)
-            props.update(d)
         }} 
             className={`${timelineSelected === d ? "selectedDate": ""} date`} 
             key={d}> {d} </div>)}
