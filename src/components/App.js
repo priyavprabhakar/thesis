@@ -3,7 +3,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import TimelinePage from "../TimelinePage";
+import TimelinePage from "./TimelinePage";
 import Home from "./Home"
 import About from "./About"
 
