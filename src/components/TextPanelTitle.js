@@ -9,7 +9,7 @@ function TextPanelTitle(props) {
     return <> 
         {
             dateMetaData && <div className = "textPanelTitleContainer">
-                <div className = "textPanelDate"> {date} </div>
+                <div className = "textPanelDate"> {date}: </div>
                 <div className = "textPanelTitle"> {dateMetaData.title} </div> 
             </div>
         }
