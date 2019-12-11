@@ -1,18 +1,19 @@
 import React from "react";
-import {intro_data} from '../utilities/database';
 import '../styles/Home.css'
 import {Link} from "react-router-dom"
 import { Button } from "semantic-ui-react";
+import eye from "../images/homepage/eye.png"
 
 
 function Home() {
     return (
         <div className = "homePageContainer">
-                <div className = "introDataTitle"> {intro_data.title} </div>
-                <div className = "introDate"> {intro_data.subtitle} </div>
-                <Link to = "/timeline">
+                <img src={eye} className="mainPageEye" alt="eye"/>
+                <div className = "introDataTitle"> DEKH RAHE </div>
+                <div className = "introDate">An interactive timeline of India's surveillance state in the making.</div>
+                <Link to = "/intro-1">
                     <Button basic size="big" inverted>
-                        {intro_data.button}
+                        Begin
                     </Button>
                 </Link>
         </div>

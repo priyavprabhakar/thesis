@@ -1,0 +1,1 @@
+export const INTRO_PAGE_1 = "Welcome to Dekh Rahe"
