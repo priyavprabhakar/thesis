@@ -37,6 +37,14 @@
     box-shadow:0px 1px 5px 5px rgba(248, 3, 36, 0.541);
 }
 
+.archivalItemClose {
+    position: absolute;
+    top: 5px;
+    right: 9px;
+    color: white;
+    z-index:100;
+}
+
 .archivalImage {
     height: 100%;
     width: 100%;
@@ -57,16 +65,36 @@
     margin-bottom:8px;
 }
 
-.archivalText::-webkit-scrollbar-thumb {
+.archivalText::-webkit-scrollbar-thumb, .archivalModalText::-webkit-scrollbar-thumb {
     background-color: white;
     border-radius: 0;
 }
 
-.archivalText::-webkit-scrollbar {
+.archivalText::-webkit-scrollbar, .archivalModalText::-webkit-scrollbar {
     width: 6px;
 }
 
 .titleDateContainer {
-    margin-bottom:8px;
+    padding-bottom:8px;
+    border-bottom: 1px solid white;
 }
 
+.titleDateContainer:hover {
+    text-decoration: underline;
+}
+
+.archivalItemModalContainer {
+    display: flex;
+    align-items: flex-start;
+    height: 450px;
+}
+
+.archivalModalImage {
+    height: 100%;
+}
+
+.archivalModalText {
+    height: 100%;
+    padding: 0 16px;
+    overflow-y: scroll;
+}
