@@ -28,6 +28,7 @@ function Footer() {
                     Prabhakar believes in the power of popular education, and would like to continually learn the insights of her audience to improve her digital timeline. 
                     If you have any questions, comments, or insights, please contact Prabhakar on: 
                     <br/>
+                    <br/>
                         <a className="contactLink" href=" www.priyaprabhakar.com">Personal website</a>
                         <br/>
                         <a className="contactLink" href="https://twitter.com/priyavprabhakar">Twitter @priyavprabhakar</a>

@@ -55,6 +55,7 @@
 
 .archivalText {
     height: calc(var(--media-image-height));
+    width: 100%;
     overflow-y: scroll;
     left: 0;
     position: absolute;

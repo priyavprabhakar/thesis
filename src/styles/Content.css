@@ -23,6 +23,10 @@
     padding-right: 8px;
 }
 
+.textPanelTitle {
+    line-height: 1.3;
+}
+
 .textPanelDate {
     margin-bottom: 16px;
 }
