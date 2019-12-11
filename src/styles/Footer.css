@@ -18,6 +18,19 @@
     justify-content: center;
 }
 
+.footerText:hover {
+    text-decoration: underline;
+}
+
+.contactLink { 
+    color: #A2F2FD;
+}
+
+.contactLink:hover {
+    text-decoration: underline;
+    
+}
+
 .resource {
     margin-bottom: 32px;
 }

@@ -26,9 +26,14 @@ function Footer() {
                     <br/>
                     <br/>
                     Prabhakar believes in the power of popular education, and would like to continually learn the insights of her audience to improve her digital timeline. 
-                    If you have any questions, comments, insights, or anything else under the sun, please email priyaprabhakar32@gmail.com. 
-                    Prabhakar is also active on Twitter @priyavprabhakar. Prabhakar’s other work is accessible at www.priyaprabhakar.com. Prabhakar’s web design code 
-                    can be found open-source on Github, at https://github.com/priyavprabhakar/thesis. 
+                    If you have any questions, comments, or insights, please contact Prabhakar on: 
+                    <br/>
+                        <a className="contactLink" href=" www.priyaprabhakar.com">Personal website</a>
+                        <br/>
+                        <a className="contactLink" href="https://twitter.com/priyavprabhakar">Twitter @priyavprabhakar</a>
+                        <br/>
+                        <a className="contactLink" href="https://github.com/priyavprabhakar/thesis">Github</a>
+                        <br/>
                     <br/>
                     <br/>
                     </p>
