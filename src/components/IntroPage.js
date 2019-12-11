@@ -7,7 +7,7 @@ function IntroPage({text, buttonText, nextLink}) {
     return (
         <div className = "homePageContainer" style={{justifyContent: "flex-start"}}>
             <img src={eye} className="mainPageEye" alt="eye"/>
-            <div className = "introDate">
+            <div className="introPageText">
                 {text}
             </div>
             <Link to={nextLink}>

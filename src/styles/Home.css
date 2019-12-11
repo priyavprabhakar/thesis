@@ -29,3 +29,12 @@
 .mainPageEye {
     margin: 32px 0 48px 0;
 }
+
+.introPageText {
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 32px;
+    line-height: 1.4;
+}

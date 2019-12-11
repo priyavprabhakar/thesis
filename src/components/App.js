@@ -6,7 +6,7 @@ import {
 import TimelinePage from "./TimelinePage";
 import Home from "./Home"
 import IntroPage from "./IntroPage";
-import {INTRO_PAGE_1} from "../utilities/intropages"
+import {INTRO_PAGE_1, INTRO_PAGE_2, INTRO_PAGE_3, INTRO_PAGE_4} from "../utilities/intropages"
 
 function App() {
   return (
@@ -24,13 +24,13 @@ function App() {
           <IntroPage text={INTRO_PAGE_1} nextLink="/intro-2" buttonText="Next"/>
         </Route>
         <Route path="/intro-2" exact>
-          <IntroPage text={INTRO_PAGE_1} nextLink="/intro-3" buttonText="Next"/>
+          <IntroPage text={INTRO_PAGE_2} nextLink="/intro-3" buttonText="Next"/>
         </Route>
         <Route path="/intro-3" exact>
-          <IntroPage text={INTRO_PAGE_1} nextLink="/intro-4" buttonText="Next"/>
+          <IntroPage text={INTRO_PAGE_3} nextLink="/intro-4" buttonText="Next"/>
         </Route>
         <Route path="/intro-4" exact>
-          <IntroPage text={INTRO_PAGE_1} nextLink="/timeline" buttonText="Enter"/>
+          <IntroPage text={INTRO_PAGE_4} nextLink="/timeline" buttonText="Enter"/>
         </Route>
       </Switch>
   );
